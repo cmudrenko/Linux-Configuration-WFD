@@ -202,19 +202,19 @@ and have it host my WhatsForDinner - Item Catalog project.
   - Create database schema: ```sudo python database_setup.py```
   - Populate and add data to database: ```sudo python populateCatalog.py```
 
-##Create a new client_secrets.json file (Google OAuth)
+## Create a new client_secrets.json file (Google OAuth)
 
-  *Visit https://www.hcidata.info/host2ip.cgi
-  *Input the IP address and get host name (http://ec2-18-232-104-248.compute-1.amazonaws.com/).
-  *Go to the Google API Console.
-  *From the left menu, select "API and Services", then "Credentials".
-  *Click on the button "Create credentials", then select OAuth client ID" from the dropdown menu.
-  *Add the Amazon Lightsail instance's public IP and the host name just found as Authorized JavaScript origins, then save.
-  *Download the JSON file.
-  *Open it and copy its content.
-  *On the terminal, while logged as grader, cd into /var/www/catalog/catalog/.
-  *Create a new JSON file with the command touch client_secrets.json.
-  *Open the new file with nano client_secrets.json, and paste the previously copied content, then save the file.
+  * Visit https://www.hcidata.info/host2ip.cgi
+  * Input the IP address and get host name (http://ec2-18-232-104-248.compute-1.amazonaws.com/).
+  * Go to the Google API Console.
+  * From the left menu, select "API and Services", then "Credentials".
+  * Click on the button "Create credentials", then select OAuth client ID" from the dropdown menu.
+  * Add the Amazon Lightsail instance's public IP and the host name just found as Authorized JavaScript origins, then save.
+  * Download the JSON file.
+  * Open it and copy its content.
+  * On the terminal, while logged as grader, cd into /var/www/catalog/catalog/.
+  * Create a new JSON file with the command touch client_secrets.json.
+  * Open the new file with nano client_secrets.json, and paste the previously copied content, then save the file.
 
 ## Install App dependencies:
 
