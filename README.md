@@ -13,7 +13,7 @@ and have it host my WhatsForDinner - Item Catalog project.
 
   * Server IP Address: 34.218.78.235
   * SSH port: 2200
-  * Application URL: http://34.218.78.235
+  * Application URL: hhttp://ec2-34-218-78-235.us-west-2.compute.amazonaws.com
 
 ## Connect to AWS Lightsail Instance via SSH:
 
@@ -76,7 +76,7 @@ and have it host my WhatsForDinner - Item Catalog project.
   
   * Reload ssh and enter password:
   ```
-    service ssh restart
+    sudo service ssh restart
   ```
 
 ## Login with ssh as user "grader" using key (default port is 22):
