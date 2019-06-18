@@ -164,15 +164,15 @@ and have it host my WhatsForDinner - Item Catalog project.
   - Install PostgreSQL ```sudo apt-get install postgresql```
   - Login as user "postgres" ```sudo su - postgres```
   - Get to PostgreSQL shell: ```psql```
-  - Create a new database and user name both named "catalog":
+  - Create a new database and user name both named "menu":
     ```
-      CREATE DATABASE catalog;
-      CREATE USER catalog;
+      CREATE DATABASE menu;
+      CREATE USER menu;
     ```
-  - Set "catalog" user's password: ```ALTER ROLE catalog WITH PASSWORD 'password';```
-  - Give "catalog" user permission to "catalog" application database
+  - Set "menu" user's password: ```ALTER ROLE menu WITH PASSWORD 'password';```
+  - Give "menu" user permission to "menu" application database
     ```
-      GRANT ALL PRIVILEGES ON DATABASE catalog TO catalog;
+      GRANT ALL PRIVILEGES ON DATABASE menu TO menu;
     ```
   - Quit and exit postgreSQL:
     ```
